@@ -4,10 +4,10 @@ The code corrosponds to the paper "Weakly-supervised fire segmentation by visual
 
 
 It contains two networks to be trained: 
-<ul>
-  <li>train2.py is used to train the first network to obtain initial visulization masks</li>
-<li>train.py trains a deeplabv3 pixel-supervised segmentation CNN with the intial masks</li>
-  </ul>
+<br />
+train2.py is used to train the first network to obtain initial visulization masks <br />
+train.py trains a deeplabv3 pixel-supervised segmentation CNN with the intial masks
+
   
 To Evalue the performance on the test set run: evaluate.py for evaluating initial masks, and evaluate_segment.py for evaluating the second network and the final performance
 
