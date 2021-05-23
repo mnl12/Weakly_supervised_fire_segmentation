@@ -1,4 +1,3 @@
-# Weakly_supervised_fire_segmentation
 Weakly supervised fire segmentation with intermediate layer visualization
 <br />
 The code corrosponds to the paper "Weakly-supervised fire segmentation by visualizing intermediate CNN layers" 
