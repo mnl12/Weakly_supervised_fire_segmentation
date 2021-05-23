@@ -9,5 +9,8 @@ It contains two networks to be trained:
 <li>train.py trains a deeplabv3 pixel-supervised segmentation CNN with the intial masks</li>
   </ul>
   
-To Evalue the performance on the test set run: evaluate.py for evaluating initial masks, and 
+To Evalue the performance on the test set run: evaluate.py for evaluating initial masks, and evaluate_segment.py for evaluating the second network and the final performance
+
+
+In order to get output of image examples run: test.py for intial masks and test_segment.py for the final network
   
