@@ -20,7 +20,7 @@ In order to get output of image examples run: test.py for intial masks and test_
   <td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/cam_019.png' width=150></td>
   <td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/vis_019.png' width=150></td>
   <td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/segment_019_1.png' width=150></td></tr>
-  <tr><td></td>
+  <tr>
     <td>Original image</td>
     <td>groundtruth mask</td>
     <td>CAM</td>
