@@ -13,9 +13,16 @@ To Evalue the performance on the test set run: evaluate.py for evaluating initia
 
 
 In order to get output of image examples run: test.py for intial masks and test_segment.py for the final network
+
+<table>
+  <tr><td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/019.png' width=150></td></tr>
+  <tr><td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/019.png' width=150></td></tr>
+  <tr><td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/019_mask.png' width=150></td></tr>
+  <tr><td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/cam_019.png' width=150></td></tr>
+  <tr><td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/vis_019.png' width=150></td></tr>
+  <tr><td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/segment_019_1.png' width=150></td></tr>
+ </table>
   
-<img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/019.png' width=150>
-<img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/019_mask.png' width=150>
-<img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/cam_019.png' width=150>
-<img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/vis_019.png' width=150>
-<img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/segment_019_1.png' width=150>
+
+
+
