@@ -42,7 +42,7 @@ def display(display_list):
 
 
 seed=1
-fire_img=0
+fire_img=1
 #fire optimal  cam_thre=0.75 cam_thre_mid=.45
 cam_thre=0.45
 cam_thre_mid=.25
