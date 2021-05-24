@@ -24,7 +24,7 @@ In order to get output of image examples run: test.py for intial masks and test_
     <td>Original image</td>
     <td>groundtruth mask</td>
     <td>CAM</td>
-    <td>visulaization of intermediate layers</td>
+    <td>mid-layer visulaization</td>
     <td>Proposed</td>
   </tr>
  </table>
