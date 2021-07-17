@@ -9,11 +9,12 @@ In the trainining, the method first train a classificaton network for fire and n
 <h2>The code</h2>
 It contains two networks to be trained: 
 <br />
-train2.py is used to train the first network to obtain initial visulization masks <br />
-train.py trains a deeplabv3 pixel-supervised segmentation CNN with the intial masks
+train2.py: trains the first network to obtain initial visulization masks <br />
+train.py: trains a deeplabv3 segmentation CNN with the intial masks as groundtruth
 
   
-To Evalue the performance on the test set run: evaluate.py for evaluating initial masks, and evaluate_segment.py for evaluating the second network and the final performance
+evaluate.py: evalues the initial masks on the test set <br />
+evaluate_segment.py: evaluates the final results on the test set
 
 
 In order to get output of image examples run: test.py for intial masks and test_segment.py for the final network
