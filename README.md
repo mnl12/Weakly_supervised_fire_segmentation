@@ -4,7 +4,7 @@ The code corrosponds to the paper "Weakly-supervised fire segmentation by visual
 
 <h2>Method description</h2>
 It is a fire segmentation method that uses only image labels (fire or not-fire) in the training. 
-In the trainining, the method first train a classificaton network for fire and not-fire. Then initial masks are obtained by visulaizing the CNN intermidate layers. These masks are used as groundtruth mask to train a second network which is a segmentation network.
+The method first trains a classificaton network for fire or not-fire. Then initial masks are obtained by visulaizing the CNN intermidate layers. These masks are used as groundtruth masks to train a second network which is a segmentation network.
 
 <h2>The code</h2>
 train2.py: trains the first network to obtain initial visulization masks <br />
