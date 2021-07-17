@@ -1,12 +1,12 @@
-Weakly supervised fire segmentation with intermediate layer visualization
+<h1>Weakly supervised fire segmentation with intermediate layer visualization</h1>
 <br />
 The code corrosponds to the paper "Weakly-supervised fire segmentation by visualizing intermediate CNN layers" 
 
-<h1>Method description</h1>
+<h2>Method description</h2>
 It is a fire segmentation method that uses only image labels (fire or not-fire) in the training. 
 In the trainining, the method first train a classificaton network for fire and not-fire. Then initial masks are obtained by visulaizing the CNN intermidate layers. These masks are used as groundtruth mask to train a second network which is a segmentation network.
 
-<h1>The code</h1>
+<h2>The code</h2>
 It contains two networks to be trained: 
 <br />
 train2.py is used to train the first network to obtain initial visulization masks <br />
