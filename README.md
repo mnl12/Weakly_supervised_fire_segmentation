@@ -16,8 +16,8 @@ train.py: trains a deeplabv3 segmentation CNN with the intial masks as groundtru
 evaluate.py: evalues the initial masks on the test set <br />
 evaluate_segment.py: evaluates the final results on the test set
 
-
-In order to get output of image examples run: test.py for intial masks and test_segment.py for the final network
+ test.py: gives the initial segmented mask given an input image  <br />
+ test_segment.py: gives the final segmented mask for a given input image
 
 <table>
   <td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/019.png' width=150></td>
