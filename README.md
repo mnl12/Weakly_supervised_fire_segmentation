@@ -10,13 +10,11 @@ The method first trains a classificaton network for fire or not-fire. Then initi
 train2.py: trains the first network to obtain initial visulization masks <br />
 train.py: trains a deeplabv3 segmentation CNN with the intial masks as groundtruth
 
-  
 evaluate.py: evalues the initial masks on the test set <br />
 evaluate_segment.py: evaluates the final results on the test set
 
-
- test.py: gives the initial segmented mask given an input image  <br />
- test_segment.py: gives the final segmented mask for a given input image
+test.py: gives the initial segmented mask given an input image  <br />
+test_segment.py: gives the final segmented mask for a given input image
 
 <table>
   <td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/019.png' width=150></td>
@@ -29,7 +27,7 @@ evaluate_segment.py: evaluates the final results on the test set
     <td>groundtruth mask</td>
     <td>CAM</td>
     <td>mid-layer visulaization</td>
-    <td>Proposed</td>
+    <td>Final output</td>
   </tr>
  </table>
   
