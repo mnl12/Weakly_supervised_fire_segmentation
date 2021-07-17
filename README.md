@@ -3,7 +3,7 @@ Weakly supervised fire segmentation with intermediate layer visualization
 The code corrosponds to the paper "Weakly-supervised fire segmentation by visualizing intermediate CNN layers" 
 
 It is a fire segmentation method that uses only image labels (fire or not-fire) in the training. 
-In the trainining, the method first train a classificaton network for fire and not-fire. Then initial masks are obtained by visulaizing the CNN intermidate layers. These masks are used as groundtruth mask for a segmentation network.
+In the trainining, the method first train a classificaton network for fire and not-fire. Then initial masks are obtained by visulaizing the CNN intermidate layers. These masks are used as groundtruth mask to train a second network which is a segmentation network.
 
 It contains two networks to be trained: 
 <br />
