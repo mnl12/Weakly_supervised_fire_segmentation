@@ -1,0 +1,7 @@
+ipython==7.34.0
+matplotlib==3.5.3
+numpy==1.21.6
+Pillow==10.4.0
+scipy==1.14.0
+tensorflow==2.11.0
+tensorflow_datasets==4.9.6

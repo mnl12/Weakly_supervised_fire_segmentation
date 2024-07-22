@@ -2,7 +2,6 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
-from tensorflow_examples.models.pix2pix import pix2pix
 from PIL import Image
 from pascal_voc_cmap import color_map, colors2labels, onehot2mask, labels2colors
 from models import segmentation_network

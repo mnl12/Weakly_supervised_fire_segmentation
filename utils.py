@@ -1,5 +1,4 @@
 import tensorflow as tf
-import tensorflow_probability as tfp
 import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image
@@ -89,15 +88,7 @@ def create_mask_tf_wrapper(input):
     y = tf.numpy_function(create_mask_batch, [input], tf.uint8)
     return y
 
-def create_mask_bg(pred_mask):
-    max_pred=tf.reduce_max(pred_mask, axis=-1)
-    #max_v=tf.reshape(max_pred, [-1])
-    #mid = max_v.get_shape()[0] // 2 + 1
-    #thre=tf.nn.top_k(max_v, mid).values[-1]
-    thre=tfp.stats.percentile(max_pred, q=50)
-    pred_mask_thr=tf.where(tf.less(pred_mask, tf.multiply(thre, tf.ones_like(pred_mask))), tf.zeros_like(pred_mask), pred_mask)
-    pred_mask_out=create_mask_tf_wrapper(pred_mask_thr)
-    return pred_mask_out
+
 
 def validate_results():
     miou_v=np.zeros(TEST_LENGTH//BATCH_SIZE)

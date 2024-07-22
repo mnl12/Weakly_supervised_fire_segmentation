@@ -1,6 +1,5 @@
 import tensorflow as tf
 import numpy as np
-from tensorflow_examples.models.pix2pix import pix2pix
 
 class feat_thre(tf.keras.layers.Layer):
     def __init__(self, thre):
@@ -157,12 +156,6 @@ def segmentation_network (base_model_name,decoder_name, n_classes, IMAGE_SIZE, a
     down_stack = tf.keras.Model(inputs=base_model.input, outputs=layers)
     down_stack.trainable = True
 
-    up_stack = [
-        pix2pix.upsample(512, 3),  # 4x4 -> 8x8
-        pix2pix.upsample(256, 3),  # 8x8 -> 16x16
-        pix2pix.upsample(128, 3),  # 16x16 -> 32x32
-        pix2pix.upsample(64, 3),  # 32x32 -> 64x64
-    ]
     inputs = tf.keras.Input(shape=[*IMAGE_SIZE, 3])
     enc_outs = down_stack(inputs)
 
