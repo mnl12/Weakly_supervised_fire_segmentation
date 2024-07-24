@@ -8,7 +8,7 @@ The method first trains a classificaton network for fire or not-fire. Then initi
 
 <h2>The code</h2>
 <h4>Installation</h4>
-Run pip install -r requirements.txt
+pip install -r requirements.txt
 
 <h4>Dataset</h4>
 Dataset can be downloaded from:
