@@ -7,6 +7,9 @@ It is a fire segmentation method that uses only image labels (fire or not-fire) 
 The method first trains a classificaton network for fire or not-fire. Then initial masks are obtained by visulaizing the CNN intermidate layers. These masks are used as groundtruth masks to train a second network which is a segmentation network.
 
 <h2>The code</h2>
+<h4>Installation</h4>
+Run pip install -r requirements.txt
+
 <h4>Dataset</h4>
 Dataset can be downloaded from:
 https://drive.google.com/file/d/1tWWFhEaoGaitLBOBjT-78ZJEcGW_kaag/view?usp=sharing
