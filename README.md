@@ -9,7 +9,8 @@ The method first trains a classificaton network for fire or not-fire. Then initi
 <h2>Code</h2>
 <h4>Installation</h4>
  <br />
-pip install -r requirements.txt
+<pre><code>pip install -r requirements.txt</code></pre>
+
 
 <h4>Dataset</h4>
 Dataset can be downloaded from:
@@ -22,6 +23,7 @@ evaluate_segment.py: evaluates the final results on the test set
 test.py: gives the initial segmented mask given an input image  <br />
 test_segment.py: gives the final segmented mask for a given input image
 
+<p> </p>
 <table>
   <td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/019.png' width=150></td>
   <td><img src='https://github.com/mnl12/Weakly_supervised_fire_segmentation/blob/main/images/019_mask.png' width=150></td>
