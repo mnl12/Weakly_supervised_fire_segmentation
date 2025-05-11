@@ -16,12 +16,9 @@ Dataset can be downloaded from:
 https://drive.google.com/file/d/1tWWFhEaoGaitLBOBjT-78ZJEcGW_kaag/view?usp=sharing
 
 <h4>File descriptions:</h4>
-train2.py: trains the first network to obtain initial visulization masks <br />
 train.py: trains a deeplabv3 segmentation CNN with the intial masks as groundtruth
-
 evaluate.py: evalues the initial masks on the test set <br />
 evaluate_segment.py: evaluates the final results on the test set
-
 test.py: gives the initial segmented mask given an input image  <br />
 test_segment.py: gives the final segmented mask for a given input image
 
